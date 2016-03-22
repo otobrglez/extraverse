@@ -25,7 +25,7 @@ $(function(){
 			// We are triggering the event. This will execute
 			// this function on page load, so that we show the correct folder:
 
-		})
+		});
 
     if($('.home').length > 0) {
       hashchange.trigger('hashchange');
